@@ -19,8 +19,6 @@ library(xlsx)
 
 # Initial Inputs
 
-setwd("C:/Users/User/Desktop/D/Прогнозирование продаж")
-
 sales_data_tbl <- read_rds(file = "sales_data_tbl.rds")
 
 holidays <- read_rds(file = "holidays.rds")
