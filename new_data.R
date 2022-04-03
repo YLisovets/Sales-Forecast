@@ -6,7 +6,7 @@ con <- dbConnect(odbc(),
                  Server = "SERVER2",
                  Database = "work",
                  UID = "sa",
-                 PWD = "server232", # rstudioapi::askForPassword("Database password")
+                 rstudioapi::askForPassword("Database password")
 )
 
 # Read sales
